@@ -1,0 +1,128 @@
+[gd_resource type="TileSet" format=3 uid="uid://c1hd36rhqqvvb"]
+
+[ext_resource type="Texture2D" uid="uid://dqqohau2xqgiq" path="res://assets/tilesets/water.png" id="1_m70i2"]
+[ext_resource type="Texture2D" uid="uid://lost1b3ys0kx" path="res://assets/tilesets/grass.png" id="2_cbdxd"]
+[ext_resource type="Texture2D" uid="uid://73gaxst58qnu" path="res://assets/tilesets/tilled_dirt_wide_1.png" id="3_hu6sp"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cbdxd"]
+texture = ExtResource("1_m70i2")
+0:0/animation_columns = 4
+0:0/animation_frame_0/duration = 0.2
+0:0/animation_frame_1/duration = 0.2
+0:0/animation_frame_2/duration = 0.2
+0:0/animation_frame_3/duration = 0.2
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hu6sp"]
+texture = ExtResource("2_cbdxd")
+0:0/0 = 0
+0:0/0/terrain_set = 1
+1:0/0 = 0
+1:0/0/terrain_set = 1
+1:1/0 = 0
+1:1/0/terrain_set = 1
+2:1/0 = 0
+2:1/0/terrain_set = 1
+2:0/0 = 0
+2:0/0/terrain_set = 1
+0:1/0 = 0
+0:1/0/terrain_set = 1
+0:2/0 = 0
+0:2/0/terrain_set = 1
+1:2/0 = 0
+1:2/0/terrain_set = 1
+2:2/0 = 0
+2:2/0/terrain_set = 1
+3:0/0 = 0
+3:0/0/terrain_set = 1
+3:1/0 = 0
+3:1/0/terrain_set = 1
+4:1/0 = 0
+4:1/0/terrain_set = 1
+3:2/0 = 0
+3:2/0/terrain_set = 1
+4:2/0 = 0
+4:2/0/terrain_set = 1
+4:0/0 = 0
+4:0/0/terrain_set = 1
+5:0/0 = 0
+5:0/0/terrain_set = 1
+6:0/0 = 0
+6:0/0/terrain_set = 1
+7:0/0 = 0
+7:0/0/terrain_set = 1
+5:1/0 = 0
+5:1/0/terrain_set = 1
+6:1/0 = 0
+6:1/0/terrain_set = 1
+7:1/0 = 0
+7:1/0/terrain_set = 1
+7:2/0 = 0
+7:2/0/terrain_set = 1
+6:2/0 = 0
+6:2/0/terrain_set = 1
+5:2/0 = 0
+5:2/0/terrain_set = 1
+5:3/0 = 0
+5:3/0/terrain_set = 1
+7:3/0 = 0
+7:3/0/terrain_set = 1
+6:3/0 = 0
+6:3/0/terrain_set = 1
+4:3/0 = 0
+4:3/0/terrain_set = 1
+3:3/0 = 0
+3:3/0/terrain_set = 1
+2:3/0 = 0
+2:3/0/terrain_set = 1
+1:3/0 = 0
+1:3/0/terrain_set = 1
+0:3/0 = 0
+0:3/0/terrain_set = 1
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xwv23"]
+texture = ExtResource("3_hu6sp")
+0:0/0 = 0
+0:0/0/terrain_set = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+7:1/0 = 0
+7:2/0 = 0
+7:3/0 = 0
+6:3/0 = 0
+5:3/0 = 0
+4:3/0 = 0
+3:3/0 = 0
+2:3/0 = 0
+1:3/0 = 0
+0:3/0 = 0
+0:2/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+
+[resource]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Grass Terrain 0"
+terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
+terrain_set_1/mode = 0
+terrain_set_1/terrain_0/name = "Tiled Dirt Terrain 0"
+terrain_set_1/terrain_0/color = Color(0.5019608, 0.08235294, 0.2509804, 1)
+sources/0 = SubResource("TileSetAtlasSource_cbdxd")
+sources/1 = SubResource("TileSetAtlasSource_hu6sp")
+sources/3 = SubResource("TileSetAtlasSource_xwv23")
